@@ -1,0 +1,188 @@
+.container {
+  background-color: rgb(181, 148, 99);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 { 
+  display: none;
+}
+.container1 {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 { 
+  background-color: rgb(16, 229, 38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container3 { 
+  background-color: rgb(109, 116, 117);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container4 { 
+  background-color: rgb(216, 70, 187);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container5 { 
+  background-color: rgb(189, 147, 94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* color: wheat; */
+}
+.container6 { 
+  background-color: rgb(72, 54, 90);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-group {
+  margin-bottom: 10px;
+  display: none; /* Initially hide input groups */
+}
+.input-group.show {
+  display: flex;
+}
+form {
+  text-align: center;
+  padding: 20px;
+}
+.message {
+  margin-top: 10px;
+  font-size: 14px !important;
+}
+.file-input {
+  margin-bottom: 10px;
+}
+.download-link {
+  display: none;
+  margin-top: 10px;
+}
+.essay { 
+  background-color: rgb(238, 82, 98);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommendation { 
+  background-color: rgb(207, 227, 241);
+  font-weight: bold;
+  font-size: 12px;
+  color: #000000 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('/tg_image_2957323407.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(38, 36, 36, 0.7);
+  z-index: -1; /* Ensure this layer is behind all content */
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #000000;
+}
+
+form, .container, .container1, .container2, .container3, .container4, .container5, .container6, .recommendation, .essay {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(226, 40, 40, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  width: 35%;
+}
+#message6 { 
+  color: red !important;
+}
+
+label {
+  font-size: 1em;
+  color: #333;
+}
+
+input[type="number"], select, input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  padding: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message, .message3, .message4, .message5, .message6 {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.container, .container1, .container2, .container3, .container4, .container5, .container6, .recommendation, .essay {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
+  }
+  
+  form, .container, .container1, .container2, .container3, .container4, .container5, .container6, .recommendation, .essay {
+      padding: 15px;
+  }
+  
+  h1 {
+      font-size: 1.8em;
+  }
+}

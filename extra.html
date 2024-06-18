@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bekzod diplom</title>
+   <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <form action="" method="">
+      <label for="ielts-select">IELTS</label>
+      <select id="ielts-select" name="ielts-select">
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+      </select>
+
+      <br />
+      <br />
+    </form>
+
+    <div class="container6">
+        <label for="numberInput">SAT</label>
+        <input type="number" id="numberInput6" min="800" max="1600" placeholder="800-1600">
+        <div class="message6" id="message6"></div>
+    </div>
+
+    <br>
+
+    <div class="container">
+    <span>Academic awards <button id="add-button">+</button> </span>
+    <div id="input-groups"></div>
+    <div id="file-message" class="message"></div>
+</div>
+ <br>
+    <div class="container1">
+      <span>Extracurricular awards <button id="add-button1">+</button> </span>
+      <div id="input-groups1"></div>
+      <div id="file-message1" class="message"></div>
+    </div>
+
+<br>
+
+    <div class="recommendation">
+      <h2>Recommendation letter</h2>
+      <input type="file" id="fileInputRec" class="file-input" multiple />
+      <div class="message" id="messageRec">No files uploaded.</div>
+      <div id="downloadLinks"></div>
+    </div>
+   <br>
+    <div class="essay">
+        <label for="fileInput">Application essay</label>
+        <input type="file" id="fileInputEssay">
+        <div class="message" id="messageEssay">You have one chance to upload a file.</div>
+    </div>
+
+    <br>
+
+    <div class="container2">
+        <span>Leadership positions <button id="add-button2">+</button> </span>
+        <div id="input-groups2"></div>
+      </div>
+
+      <br>
+
+      <div class="container3">
+        <label for="numberInput">Volunteering score (1-20)</label>
+        <input type="number" id="numberInput3" min="1" max="20">
+        <div class="message3" id="message3"></div>
+    </div>
+
+    <br>
+
+    
+    <div class="container4">
+        <label for="numberInput">Interview (Max:10)</label>
+        <input type="number" id="numberInput4" min="1" max="10">
+        <div class="message4" id="message4"></div>
+    </div>
+
+    <br>
+
+    <div class="container5">
+        <label for="numberInput">GPA (Max:5)</label>
+        <input type="number" id="numberInput5" min="1" max="5">
+        <div class="message5" id="message5"></div>
+    </div>
+
+    <!-- response text place from backend -->
+    <div>
+      <span></span>
+    </div>
+
+    <script src="/new-script.js"></script>
+    <script src="/files.js"></script>
+    <script src="/value.js"></script>
+  </body>
+</html>
